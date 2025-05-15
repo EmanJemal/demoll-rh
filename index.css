@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2e5169;
+    height: 3000px;
+    font-family: poppins;
+}
+header{
+    position: fixed;
+    display: grid;
+    grid-template-columns:
+    repeat(3, 1fr); width: 100%;
+    height: 90px;
+    margin-top: 0;
+    background-color: #2e5169;
+    z-index: 10;
+}
+.links{
+    color: #f99509; font-family: poppins;
+}
+.links ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    font-size: 19px;
+}
+.links ul li{
+    margin-left: 50px;
+    width: 80px;
+}
+.bg-img{
+    margin-top: 90px;
+    width: 100%;
+    opacity: 0.85;
+    z-index: 0;
+}
+.logo{
+    height: 100px;
+}
+.logo svg{
+    margin-top: -50px;
+}
+.bg-div{
+    height: 700px;
+    overflow: hidden;
+}
+.light-orange {
+    color: #FEBA17;
+}
+.dark-orange {
+    color: #f99509;
+}
+.arrow-info{
+    font-size: 30px;
+    margin: 30px 0px 0 100px;
+    cursor: pointer;
+}
+.arrow-info:hover{
+    color: #f99509;
+}
+.desc-1 {
+    margin-left: 130px;
+    margin-right: 40px;
+}
+
+.desc-1 {
+    display: none;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+.h1-questions{
+    font-size: 25px;
+}
+.h3-questions{
+    font-size: 20px;
+}
+.timeline-step {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 4px;
+    height: 100%;
+    background-color: orange;
+    z-index: 0;
+    border-radius: 2px;
+}
+
+.timeline-content {
+    margin-left: 60px;
+    z-index: 1;
+    position: relative;
+}
+
+.teacher-icon {
+    font-size: 60px;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.h4-questions {
+    font-size: 18px;
+    color: white;
+    max-width: 800px;
+}
+.title-que {
+    margin: 10px 0 10px 30px;
+    font-size: 35px;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Scrollbar track (background) */
+  ::-webkit-scrollbar-track {
+    background: #F8F4E1;
+    border-radius: 10px;
+  }
+
+  /* Scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #FEBA17;
+    border-radius: 10px;
+  }
+
+  /* Scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f99509;
+  }
