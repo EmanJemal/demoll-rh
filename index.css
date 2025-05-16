@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: #2e5169;
-    height: 3000px;
     font-family: poppins;
 }
 header{
@@ -32,7 +31,7 @@ header{
 .bg-img{
     margin-top: 90px;
     width: 100%;
-    opacity: 0.85;
+    opacity: 1;
     z-index: 0;
 }
 .logo{
@@ -120,8 +119,26 @@ header{
     margin: 10px 0 10px 30px;
     font-size: 35px;
 }
-
-
+.kits{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    width: 80%;
+    height: 750px;
+    border: none;
+    border-color: beige;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 100px;
+}
+.kits div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+.ultrasonic{
+    margin-left: 20px;
+}
 
 
 ::-webkit-scrollbar {
