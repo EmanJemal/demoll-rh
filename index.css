@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 body{
     margin: 0;
     padding: 0;
@@ -13,9 +20,12 @@ header{
     margin-top: 0;
     background-color: #2e5169;
     z-index: 10;
+    top: 0;
 }
-.links{
-    color: #f99509; font-family: poppins;
+.links, .links a{
+    color: #f99509;
+    font-family: poppins;
+    text-decoration: none;
 }
 .links ul{
     list-style: none;
@@ -139,7 +149,59 @@ header{
 .ultrasonic{
     margin-left: 20px;
 }
+.cta-h{
+    background-color: #FEBA17;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    margin-left: auto;
+    display: grid;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.cta-h:hover{
+    color: #f99509;
+    background-color: #2e5169;
+    border: #F8F4E1 solid 2px;
+}
 
+.cta{
+    background-color: #FEBA17;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    margin-left: auto;
+    display: grid;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+.cta:hover{
+    color: #f99509;
+    background-color: #2e5169;
+    border: #F8F4E1 solid 2px;
+}
+.sub-head{
+    color: #F8F4E1;
+    font-weight: bold;
+    text-align: center;
+}
+.call-to-action{
+    width: 100%;
+}
 
 ::-webkit-scrollbar {
     width: 12px;
